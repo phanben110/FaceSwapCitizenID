@@ -1,57 +1,33 @@
-# FaceSwap
-Swap face between two photos for Python 3 with OpenCV and dlib.
+## 1. Pipeline
 
-## Get Started
-```sh
-python main.py --src imgs/test6.jpg --dst imgs/test7.jpg --out results/output6_7.jpg --correct_color
+### 1.1. Original image
+<p align="center">
+  <img width="1024" height="742" src="https://github.com/phanben110/FaceSwapCitizenID-/blob/master/1.jpg">
+</p>
+
+### 1.2. Target image
+<p align="center">
+  <img src="https://github.com/phanben110/FaceSwapCitizenID-/blob/master/4.jpg">
+</p>
+
+### 1.3. Result
+<p align="center">
+  <img width="1024" height="742" src="https://github.com/phanben110/FaceSwapCitizenID-/blob/master/results/result1.png">
+</p>
+
+## 2. How to run project 
+
+### 2.1. Install dependecies
+```
+pip install -r requirement.txt
 ```
 
-| Source | Destination | Result |
-| --- | --- | --- |
-|![](imgs/test6.jpg) | ![](imgs/test7.jpg) | ![](results/output6_7.jpg) |
-
-```sh
-python main.py --src imgs/test6.jpg --dst imgs/test7.jpg --out results/output6_7_2d.jpg --correct_color --warp_2d
+### 2.2. Run 
 ```
-
-| Source | Destination | Result |
-| --- | --- | --- |
-|![](imgs/test6.jpg) | ![](imgs/test7.jpg) | ![](results/output6_7_2d.jpg) |
-
-
-## Install
-### Requirements
-* `pip install -r requirements.txt`
-* OpenCV 3: `conda install opencv` (If you have conda/anaconda)
-
-Note: See [requirements.txt](requirements.txt) for more details.
-### Git Clone
-```sh
-git clone https://github.com/wuhuikai/FaceSwap.git
+python main.py --src 4.jpg --dst 1.jpg  --out results/result1.png --correct_color     
 ```
-### Swap Your Face
-```sh
-python main.py ...
-```
-Note: Run **python main.py -h** for more details.
+Or 
 
-
-### Real-time camera
-```sh
-python main_video.py --src_img imgs/test7.jpg --show --correct_color --save_path {*.avi}
 ```
-### Video
-```sh
-python main_video.py --src_img imgs/test7.jpg --video_path {video_path} --show --correct_color --save_path {*.avi}
+bash run.sh
 ```
-
-## More Results
-| From | To |
-| --- | --- |
-| ![](imgs/test4.jpg) | ![](results/output6_4.jpg) |
-| ![](imgs/test3.jpg) | ![](results/output6_3.jpg) |
-| ![](imgs/test2.jpg) | ![](results/output6_2_2d.jpg) |
-| ![](imgs/test1.jpg) | ![](results/output6_1.jpg) |
-| ![](imgs/test4.jpg) | ![](results/output7_4.jpg) |
-# fakeIDCard
-# FaceSwapCitizenID-
