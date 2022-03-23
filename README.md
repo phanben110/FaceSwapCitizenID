@@ -2,7 +2,7 @@
 
 ### 1.1. Original image
 <p align="center">
-  <img width="1024" height="742" src="https://github.com/phanben110/FaceSwapCitizenID-/blob/master/1.jpg">
+  <img src="https://github.com/phanben110/FaceSwapCitizenID-/blob/master/1.jpg">
 </p>
 
 ### 1.2. Target image
@@ -12,7 +12,7 @@
 
 ### 1.3. Result
 <p align="center">
-  <img width="1024" height="742" src="https://github.com/phanben110/FaceSwapCitizenID-/blob/master/results/result1.png">
+  <img src="https://github.com/phanben110/FaceSwapCitizenID-/blob/master/results/result1.png">
 </p>
 
 ## 2. How to run project 
